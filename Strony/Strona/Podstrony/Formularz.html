@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style.css">
+        <title>Formularz</title>
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <h1>Dawid Maciejski Kacper Kurek 314A</h1>
+        </header>
+        <div id="gorny">
+            <h2>Menu górne</h2>
+            <a href=""><div class="wybor">
+            <p></p>
+            </div></a>
+            <a href=""><div class="wybor">
+            <p></p>
+            </div></a>
+            <a href=""><div class="wybor">
+            <p></p>
+            </div></a>
+            <a href=""><div class="wybor">
+            <p></p>
+            </div></a>
+            <div id="oo"></div>
+        </div>
+        <div id="lewy">
+            <h2>Menu Lewe</h2>
+            <a href="../index.html"><div class="opcja">
+            <p>Strona główna</p>
+            </div></a>
+            <a href="obrazy.html"><div class="opcja">
+            <p>Obrazy</p>
+            </div></a>
+            <a href="Dokumnety.html"><div class="opcja">
+            <p>Dokumenty</p>
+            </div></a>
+            <a href="Formularz.html"><div class="opcja">
+            <p>Formularze</p>
+            </div></a>
+        </div>
+        <div id="main">
+            <head>
+                <h2>Formularze</h2>
+            </head>
+            <form action="../a2.php" method="post">
+                <label for="hmie">Imie:</label><br>
+                <input type="text" id="imie" name="imie" value=""><br>
+                <label for="wiek">Wiek:</label><br>
+                <input type="number" id="wiek" name="wiek" min="18" max="100"><br>
+                <label>Płeć:</label><br>
+                <select name="select">
+                    <option>-</option>
+                    <option>M</option>
+                    <option>K</option>
+                </select>
+                <br>
+                <label>Wzrost:</label><br>
+                <label>N</label>
+                <input type="radio" name="radio" value="Niski" />
+                <label>S</label>
+                <input type="radio" name="radio" value="Sredni" />
+                <label>W</label>
+                <input type="radio" name="radio" value="Wysoki" />
+                <br>
+                <label for="mail">Email:</label><br>
+                <input type="email" id="mail" name="mail" value=""><br>
+                <label for="haslo">Hasło:</label><br>
+                <input type="password" id="haslo" name="haslo"><br><br>
+                <input type="reset" value="Wyczyść">
+                <input type="submit" value="Wyślij">
+</form>
+        </div>
+        <div id="footer">
+            <p>14.11.2022</p>
+        </div>
+        </div>
+    </body>
+</html>
