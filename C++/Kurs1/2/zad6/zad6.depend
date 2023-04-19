@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1616060526 source:c:\users\studia\documents\c++\lab2\zad6\silnia.cpp
+	"plik.h"
+
+1616067548 c:\users\studia\documents\c++\lab2\zad6\plik.h
+
+1616066960 source:c:\users\studia\documents\c++\lab2\zad6\ciagfibonaciego.cpp
+	"plik.h"
+
+1616067629 source:c:\users\studia\documents\c++\lab2\zad6\main.cpp
+	<iostream>
+	"plik.h"
+
+1617708726 source:c:\users\studia\documents\c++\lab2\zad6\ptrapezu.cpp
+	<iostream>
+	"plik.h"
+
+1617708726 source:c:\users\studia\documents\c++\lab2\zad6\pkola.cpp
+	<iostream>
+	<cmath>
+	"plik.h"
+
+1617708726 source:c:\users\studia\documents\c++\lab2\zad6\ptrojkata.cpp
+	<iostream>
+	"plik.h"
+

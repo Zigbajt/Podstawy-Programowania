@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2194BFD2-19CB-0697-971A-292ED0AF41CF" name="Pojazdy">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>6AE32769-F586-E86F-A2E6-69356C5392F9</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pojazdu" id="33DFD0CE-C27A-54AC-736F-E7E28FDFA750">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>0655BDD1-C595-EA4A-8F5D-1256214A466A</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rejestracyjny" id="6DF3A429-6CF0-3536-0B55-F565F7695C20">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>873548E5-C8C1-954C-6196-E5105DAF05F9</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C54EADAD-08D3-FC86-8386-A4D0BF8A39E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_osob" id="5FEB7EC2-DC05-92B7-44A2-E9D6AE7AB768">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>FC80B5EE-8779-6F5C-AE75-C67118EB8059</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>69A61D15-0E9C-8C44-E04E-76D22F5A1165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rodzaj" id="CC8BE488-A57B-8FEC-3CA8-B8E48234D678">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>E35EA3F5-B4BC-9051-BAEA-EB6E20CE3CC5</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Badanie_techniczne_id_badanie_techniczne" id="3A507696-3413-4734-BFF7-35B455FC1F63">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>29B9AC21-D0B7-FE05-C5C7-877A17D261F7</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7062CF72-91C9-898C-7C8D-6FDCB744E1B0" referredColumn="6BD02EAA-B1CF-44A3-69BF-A4B17924D901"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EF1C7F8-4C96-FCA2-3576-18892A1EF657" name="Pojazdy_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>D724704F-5E2D-28CC-10AA-C32D47C14E16</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33DFD0CE-C27A-54AC-736F-E7E28FDFA750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="109902E4-030D-338C-980C-DF1EDC291CC2" name="Pojazdy_Badanie_techniczne_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>7AFB5A9C-E031-97CD-4110-4A09C2472089</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A507696-3413-4734-BFF7-35B455FC1F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

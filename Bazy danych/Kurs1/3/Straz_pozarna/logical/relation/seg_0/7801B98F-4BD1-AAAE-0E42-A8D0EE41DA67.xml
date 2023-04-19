@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zglaszajacy Zgloszenie FK" directorySegmentName="seg_0" id="7801B98F-4BD1-AAAE-0E42-A8D0EE41DA67">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:09 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<sourcePk>BE1D9093-021F-FF04-10C5-25C8931E9049</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5BA77407-BC45-8918-1BA1-668DADD0ECD8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E631826F-9144-959B-02E7-E501CBA8B968</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

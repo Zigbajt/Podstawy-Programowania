@@ -1,0 +1,38 @@
+zgloszenie(id_zgloszenie,rodzaj,miejscowosc,adres)
+PRIMARY KEY id_zgloszenie
+
+zglaszajacy(id_zglaszajacy,imie,nazwisko,nr_telefonu,zgloszenie_id_zgloszenie)
+PRIMARY KEY id_zglaszajacy
+FOREIGN KEY zgloszenie_id_zgloszenie
+
+dyspozytor(id_dyspozytora,imie,nazwisko,nr_stanowiska)
+PRIMARY KEY id_dyspozytora
+
+zarobki(id_zarobki,wysokosc,data_przelewu,dodatki)
+PRIMARY KEY id_zarobki
+
+badanie(id_badanie,data_prozpoczecia,data_zakonczenia,rodzaj)
+PRIMARY KEY id_badanie
+
+strazak(id_strazak,imie,nazwisko,stopien,miejscowosc,adres,badanie_id_badanie,zarobki_id_zarobki)
+PRIMARY KEY id_strazak
+FOREIGN KEY badanie_id_badanie
+FOREIGN KEY zarobki_id_zarobki
+
+badanie_techniczne(id_badanie_techniczne,data_rozpoczecia,data_zakonczenia)
+PRIMARY KEY id_badanie_techniczne
+
+pojazdy(id_pojazdu,nr_rejestracyjny,liczba_osob,rodzaj,badanie_techniczne_id_badanie_techniczne)
+PRIMARY KEY id_pojazdu
+FOREIGN KEY badanie_techniczne_id_badanie_techniczne
+
+jednostka(id_jednostki,pojazdy_id_pojazdy,strazak_id_strazak)
+PRIMARY KEY id_jednostki
+FOREIGN KEY pojazdy_id_pojazdy
+FOREIGN KEY strazak_id_strazak
+
+akcja(id_akcja,zgloszenie_id_zgloszenie,dyspozytor_id_dyspozytora,jednostka_id_jednostki)
+PRIMARY KEY id_akcja
+FOREIGN KEY zgloszenie_id_zgloszenie
+FOREIGN KEY dyspozytor_id_dyspozytora
+FOREIGN KEY jednostka_id_jednostki

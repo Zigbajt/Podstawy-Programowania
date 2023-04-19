@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83AFF7B1-1366-59B1-4B48-CF87976C8CDC" name="Strazak">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>0A869FEB-1DFE-B27B-2826-8289B682BB88</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_strazak" id="34F2D17D-0224-6C65-8926-4E8CACE70C94">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>DFDD73D7-A761-43FB-4EA4-78858A2FD972</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="A6B2540D-8042-EE76-503D-F0D3346E8D46">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>00660D06-63F1-7BF1-2DC6-E002FB1ADA9B</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="04E2472B-EA8E-D24E-3238-F50A550C6C06">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>9DF4668A-04F4-EF65-9622-B1F6E16331A7</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stopien" id="404D1620-E2C6-D86E-AAD8-42DBAC4D1552">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>4AA96771-F059-6566-E27D-38D150880AAD</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miejscowosc" id="17334E5F-D055-2714-F621-9ED3C6F8FC22">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>A194BE10-029A-4C2D-837D-EC7B7EC36549</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A9F6DED-CEBD-E1DB-B930-39311D712228</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="26C769B7-9EBF-0BBB-2ED6-1E16D39B77A4">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>66883786-CD45-C3AD-F7CA-7CC164A3F9D2</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58010C5C-28F1-D7FF-2022-4AEE08DF891D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Badania_id_badanie" id="983DD2F4-AB12-9151-8042-DB68AFE85E50">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>CA185595-60AE-A56D-E934-46AAE49A653D</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4F6A40C-326C-F279-BFF4-260BEA0620E7" referredColumn="CE5DB5CF-DC81-42B2-5D5A-6F6B644AB7EC"/>
+</associations>
+</Column>
+<Column name="Zarobki_id_zarobki" id="AB22AA7E-A591-C046-AF0D-8830CDB22D97">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>573A2AD5-FD7B-65E2-3D30-015D4D67AC15</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7382D9E7-B1EA-025D-A29C-FF70C9EC542B" referredColumn="39B5849D-C0CB-8DE3-B126-FF300D7C15C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="994FD886-C7D5-B09E-8AF9-B4E839DE0256" name="Strazak_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>61689313-C5F4-6293-4891-1DD1CC13F1D9</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34F2D17D-0224-6C65-8926-4E8CACE70C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="747770F8-E383-977A-4EA2-4683114E72C1" name="Strazak_Badania_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>3D652C4D-29BD-1957-EB3F-F5B085BC23C1</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="983DD2F4-AB12-9151-8042-DB68AFE85E50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0E66532-2F9F-1CE0-9B66-FF02FF8CE097" name="Strazak_Zarobki_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>E376B2FE-4BCC-6341-2585-C8844A89B65C</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB22AA7E-A591-C046-AF0D-8830CDB22D97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

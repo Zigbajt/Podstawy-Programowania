@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1614688543 source:c:\users\studia\documents\podstawy programowania 2\laboratorium1\zad5a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<malloc.h>
+

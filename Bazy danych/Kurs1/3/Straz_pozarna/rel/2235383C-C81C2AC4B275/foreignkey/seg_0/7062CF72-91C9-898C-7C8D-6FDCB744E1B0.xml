@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7062CF72-91C9-898C-7C8D-6FDCB744E1B0" containerWithKeyObject="2194BFD2-19CB-0697-971A-292ED0AF41CF" localFKIndex="109902E4-030D-338C-980C-DF1EDC291CC2" name="Pojazdy_Badanie_techniczne_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>7AFB5A9C-E031-97CD-4110-4A09C2472089</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<referredTableLongName>Badanie_techniczne</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1FE6A0A-CD2D-C01E-2297-82954FD4B7A2</referredTableID>
+<keyObject>EF3E2E0D-6DE9-8D39-E90F-F9A0FF47560B</keyObject>
+<referredKeyID>EF3E2E0D-6DE9-8D39-E90F-F9A0FF47560B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_badanie_techniczne</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

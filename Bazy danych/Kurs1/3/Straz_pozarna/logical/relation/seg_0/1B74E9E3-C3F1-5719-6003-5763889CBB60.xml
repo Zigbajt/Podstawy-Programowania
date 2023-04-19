@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Akcja_Zgloszenie" directorySegmentName="seg_0" id="1B74E9E3-C3F1-5719-6003-5763889CBB60">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:37:19 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<sourcePk>BE1D9093-021F-FF04-10C5-25C8931E9049</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5BA77407-BC45-8918-1BA1-668DADD0ECD8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B8CF1DF-DAF4-537C-E86F-9B35E3CBFEAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

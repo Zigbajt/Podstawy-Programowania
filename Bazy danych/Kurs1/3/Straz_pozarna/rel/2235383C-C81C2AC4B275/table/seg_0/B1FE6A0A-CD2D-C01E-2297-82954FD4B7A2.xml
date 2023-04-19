@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1FE6A0A-CD2D-C01E-2297-82954FD4B7A2" name="Badanie_techniczne">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>B269A470-4015-DCDD-278B-97AE1F8C0B09</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_badanie_techniczne" id="6BD02EAA-B1CF-44A3-69BF-A4B17924D901">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>DF2EAFDD-6743-7AC4-BEE0-D5E6B6A4D8A0</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_rozpoczecia" id="70FEDF63-6174-1B66-1A22-F277F461805D">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>4C6D43AB-396A-06BE-9F57-0DAEE8DC3C49</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zakonczenia" id="97C6F2A7-6EB8-C831-BBB4-9470F9FBBB1C">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>AE6F4CF0-3A72-8235-5D88-7F26DCA6D481</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF3E2E0D-6DE9-8D39-E90F-F9A0FF47560B" name="Badanie_techniczne_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>5E19B1A4-56D4-4DA9-14A1-8E63FAD9911D</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD02EAA-B1CF-44A3-69BF-A4B17924D901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

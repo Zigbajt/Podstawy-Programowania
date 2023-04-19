@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C030B881-812F-6636-4F5B-619E4E7E8DBB" name="Zgloszenie">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>5BA77407-BC45-8918-1BA1-668DADD0ECD8</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zgloszenie" id="C7100C89-EA84-1ED8-E69B-F00804314CAC">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>49AEAC7F-5660-AAC5-B8E0-3A31DE5A14F1</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rodzaj" id="8FC4EFC2-D269-CE32-11EF-04293493D15E">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>9CDDF43D-A287-8909-D0BE-4BD5602B6396</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miejscowosc" id="4BDE3655-66EA-B326-1643-046E2CB92EB8">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>5B8F0551-62D9-4233-9517-6C37F726713F</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A9F6DED-CEBD-E1DB-B930-39311D712228</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="D5EEE9EA-C00C-AD23-A01B-5118785EA5C5">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>5EBBC2D5-AD72-4A5B-B654-574394F64F33</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58010C5C-28F1-D7FF-2022-4AEE08DF891D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB74420A-9555-0EDE-FCF5-6D386E02083A" name="Zgloszenie_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>BE1D9093-021F-FF04-10C5-25C8931E9049</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7100C89-EA84-1ED8-E69B-F00804314CAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

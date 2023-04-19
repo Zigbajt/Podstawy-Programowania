@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1622398062 source:c:\users\dawid\documents\zajecia\c++\lab5\zad5\main.cpp
+	<iostream>
+	<vector>
+

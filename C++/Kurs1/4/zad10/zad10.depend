@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1619427756 source:c:\users\studia\documents\c++\lab4\zad10\main.cpp
+	<iostream>
+	<sstream>
+	<time.h>
+	<cstdlib>
+

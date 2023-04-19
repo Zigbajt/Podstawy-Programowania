@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621948442 source:c:\users\studia\desktop\teraz\laboratorium10\zad6a\main.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="zad1Frame">
+		<size>400,500</size>
+		<bg>wxSYS_COLOUR_INFOBK</bg>
+		<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton1" member="yes">
+			<bitmap>C:\Users\Dawid\Pictures\Blokady\tapeciarnia.pl-84557_kobieta_fale_gory.jpg</bitmap>
+			<pos>110,32</pos>
+			<size>184,64</size>
+		</object>
+		<object class="wxButton" name="wxID_ADD" variable="Button1" member="yes">
+			<pos>70,120</pos>
+		</object>
+		<object class="wxButton" name="wxID_APPLY" variable="Button2" member="yes">
+			<pos>70,160</pos>
+		</object>
+		<object class="wxButton" name="wxID_BOLD" variable="Button3" member="yes">
+			<pos>70,200</pos>
+		</object>
+		<object class="wxButton" name="wxID_CANCEL" variable="Button4" member="yes">
+			<pos>70,240</pos>
+		</object>
+		<object class="wxButton" name="wxID_CLEAR" variable="Button5" member="yes">
+			<pos>70,280</pos>
+		</object>
+		<object class="wxButton" name="wxID_CUT" variable="Button6" member="yes">
+			<pos>240,200</pos>
+		</object>
+		<object class="wxButton" name="wxID_REPLACE" variable="Button7" member="yes">
+			<pos>152,328</pos>
+		</object>
+		<object class="wxButton" name="wxID_CLOSE" variable="Button8" member="yes">
+			<pos>240,120</pos>
+		</object>
+		<object class="wxButton" name="wxID_COPY" variable="Button9" member="yes">
+			<pos>240,160</pos>
+		</object>
+		<object class="wxButton" name="wxID_DELETE" variable="Button10" member="yes">
+			<pos>240,240</pos>
+		</object>
+		<object class="wxButton" name="wxID_FIND" variable="Button11" member="yes">
+			<pos>240,280</pos>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>

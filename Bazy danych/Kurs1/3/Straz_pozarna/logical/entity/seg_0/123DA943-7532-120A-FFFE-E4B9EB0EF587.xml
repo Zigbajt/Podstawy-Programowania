@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="123DA943-7532-120A-FFFE-E4B9EB0EF587" name="Zarobki">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 14:59:38 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id zarobki" id="BCD1958B-AABE-1152-BA86-8AE94AA2AF62">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:29:36 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wysokosc" id="AEF2F2FC-4BDA-E1EE-35AF-CD0AFB4B435D">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:29:53 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>69A61D15-0E9C-8C44-E04E-76D22F5A1165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data przelewu" id="FA71EF10-70AE-2992-E135-515C86BC408D">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:30:18 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dodatki" id="3B323926-BA04-1DA1-42F8-AEFCC6D8E4F3">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:30:53 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>69A61D15-0E9C-8C44-E04E-76D22F5A1165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D951270-E1BA-447B-5410-4766A9761550" name="Zarobki PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:29:46 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCD1958B-AABE-1152-BA86-8AE94AA2AF62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

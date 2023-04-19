@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zarobki_Strazak" directorySegmentName="seg_0" id="E376B2FE-4BCC-6341-2585-C8844A89B65C">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:16 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<sourcePk>1D951270-E1BA-447B-5410-4766A9761550</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>123DA943-7532-120A-FFFE-E4B9EB0EF587</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A869FEB-1DFE-B27B-2826-8289B682BB88</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

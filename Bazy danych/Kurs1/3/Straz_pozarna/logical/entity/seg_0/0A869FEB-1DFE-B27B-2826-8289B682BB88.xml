@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A869FEB-1DFE-B27B-2826-8289B682BB88" name="Strazak">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 14:58:35 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id strazak" id="DFDD73D7-A761-43FB-4EA4-78858A2FD972">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:27:08 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="00660D06-63F1-7BF1-2DC6-E002FB1ADA9B">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:28:11 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="9DF4668A-04F4-EF65-9622-B1F6E16331A7">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:28:21 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stopien" id="4AA96771-F059-6566-E27D-38D150880AAD">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:28:39 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miejscowosc" id="A194BE10-029A-4C2D-837D-EC7B7EC36549">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:28:53 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A9F6DED-CEBD-E1DB-B930-39311D712228</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres" id="66883786-CD45-C3AD-F7CA-7CC164A3F9D2">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:29:16 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58010C5C-28F1-D7FF-2022-4AEE08DF891D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id badanie" id="CA185595-60AE-A56D-E934-46AAE49A653D">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:40:47 UTC</createdTime>
+<generatorID>3D652C4D-29BD-1957-EB3F-F5B085BC23C1</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<referedAttribute>520C1B40-2236-151E-A693-4054F5B59FC5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id zarobki" id="573A2AD5-FD7B-65E2-3D30-015D4D67AC15">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:16 UTC</createdTime>
+<generatorID>E376B2FE-4BCC-6341-2585-C8844A89B65C</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<referedAttribute>BCD1958B-AABE-1152-BA86-8AE94AA2AF62</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61689313-C5F4-6293-4891-1DD1CC13F1D9" name="Strazak PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:27:36 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFDD73D7-A761-43FB-4EA4-78858A2FD972</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

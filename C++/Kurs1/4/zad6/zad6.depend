@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1619386639 source:c:\users\studia\documents\c++\lab4\zad6\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+

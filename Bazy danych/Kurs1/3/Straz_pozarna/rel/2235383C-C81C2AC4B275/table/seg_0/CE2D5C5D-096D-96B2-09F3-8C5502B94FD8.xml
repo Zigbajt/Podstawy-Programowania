@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE2D5C5D-096D-96B2-09F3-8C5502B94FD8" name="Zarobki">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>123DA943-7532-120A-FFFE-E4B9EB0EF587</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zarobki" id="39B5849D-C0CB-8DE3-B126-FF300D7C15C9">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>BCD1958B-AABE-1152-BA86-8AE94AA2AF62</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wysokosc" id="526C721A-8E8D-AE9B-3AD3-26CDD96A56BB">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>AEF2F2FC-4BDA-E1EE-35AF-CD0AFB4B435D</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>69A61D15-0E9C-8C44-E04E-76D22F5A1165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_przelewu" id="38E0B601-5F9D-8BBE-82F3-FCBE2C87444B">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>FA71EF10-70AE-2992-E135-515C86BC408D</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dodatki" id="327B5A08-AB93-FDEA-A057-AD2DCD404876">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>3B323926-BA04-1DA1-42F8-AEFCC6D8E4F3</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>69A61D15-0E9C-8C44-E04E-76D22F5A1165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A096DEF-C6B2-8E19-9D79-643C0E3A7ADB" name="Zarobki_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>1D951270-E1BA-447B-5410-4766A9761550</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B5849D-C0CB-8DE3-B126-FF300D7C15C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

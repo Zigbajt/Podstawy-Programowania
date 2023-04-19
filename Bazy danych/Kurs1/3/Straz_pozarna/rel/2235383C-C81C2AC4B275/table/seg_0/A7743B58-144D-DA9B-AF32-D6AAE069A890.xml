@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7743B58-144D-DA9B-AF32-D6AAE069A890" name="Jednostka">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>B0AFC6D7-F407-6792-0B0F-4DF80CF3BF29</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jednostki" id="4372EB34-4A69-D23A-20A0-580BB7D2B854">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>7F05F462-75DB-8E05-12C1-FFD8EC0BA362</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojazdy_id_pojazdu" id="4D7C31BF-B773-7C46-227C-AC515C0E29EB">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>CAF6EDC3-A6E0-F1E6-10C0-286B7EB1B173</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BAF1111-98CB-D785-81E8-ED7660399BA2" referredColumn="33DFD0CE-C27A-54AC-736F-E7E28FDFA750"/>
+</associations>
+</Column>
+<Column name="Strazak_id_strazak" id="4D008CDA-CFF7-7FCC-DB97-0B029CA435F5">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>82DF3C68-FBE8-F8C7-ECD9-61E5115D977B</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F1E41DB-24D6-EAE5-7967-A0A15AEDB614" referredColumn="34F2D17D-0224-6C65-8926-4E8CACE70C94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADE58B3F-529A-8BB4-FBE5-7895094E6F77" name="Jednostka_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>EA56C40B-1BD1-A883-ADA6-0465F61C266A</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4372EB34-4A69-D23A-20A0-580BB7D2B854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C66C7AFF-D8BD-5DD6-E45D-B535F5F9D6EB" name="Jednostka_Pojazdy_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>C5D85837-BFAE-EA44-EDE6-23DE2C9B6ABB</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7C31BF-B773-7C46-227C-AC515C0E29EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41863518-1DDE-964C-B173-D5D2677CFBA9" name="Jednostka_Strazak_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>EBCF6486-F5A3-9A61-CDD8-1E5F560ECC8E</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D008CDA-CFF7-7FCC-DB97-0B029CA435F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

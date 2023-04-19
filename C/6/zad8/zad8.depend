@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1618318992 source:c:\users\studia\documents\podstawy programowania 2\laboratorium6\zad8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1619391333 source:c:\users\studia\documents\c++\lab4\zad7\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+

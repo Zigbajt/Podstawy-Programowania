@@ -1,0 +1,207 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Fri Apr 22 15:36:53 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /media/sf_fold/imp_student.ctl
+Data File:      student.csv
+  Bad File:     /media/sf_fold/student.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STUDENT, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NR_ALBUMU                           FIRST     *   ,       CHARACTER            
+NAZWISKO                             NEXT     *   ,       CHARACTER            
+IMIE                                 NEXT     *   ,       CHARACTER            
+WIEK                                 NEXT     *   ,       CHARACTER            
+GRUPA                                NEXT     *   ,       CHARACTER            
+
+Record 1: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01722: invalid number
+
+Record 29: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 30: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 19, maximum: 15)
+
+Record 58: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 25, maximum: 15)
+
+Record 92: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 124: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 159: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 168: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 177: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 184: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 18, maximum: 15)
+
+Record 210: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 22, maximum: 15)
+
+Record 229: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 244: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 246: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 247: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 19, maximum: 15)
+
+Record 260: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 300: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 341: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 342: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 348: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 18, maximum: 15)
+
+Record 361: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 18, maximum: 15)
+
+Record 395: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 408: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 414: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 19, maximum: 15)
+
+Record 431: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 16, maximum: 15)
+
+Record 456: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 458: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 472: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 19, maximum: 15)
+
+Record 487: Rejected - Error on table STUDENT, column NAZWISKO.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."NAZWISKO" (actual: 18, maximum: 15)
+
+Record 512: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 18, maximum: 15)
+
+Record 537: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 548: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 18, maximum: 15)
+
+Record 587: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 593: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 603: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 618: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 714: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 770: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 787: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 834: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 861: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 880: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 885: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 17, maximum: 15)
+
+Record 889: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 18, maximum: 15)
+
+Record 988: Rejected - Error on table STUDENT, column IMIE.
+ORA-12899: value too large for column "BD2_LAB"."STUDENT"."IMIE" (actual: 16, maximum: 15)
+
+Record 1001: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01438: value larger than specified precision allowed for this column
+
+Record 1002: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01438: value larger than specified precision allowed for this column
+
+Record 1003: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01438: value larger than specified precision allowed for this column
+
+Record 1004: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01438: value larger than specified precision allowed for this column
+
+Record 1005: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01438: value larger than specified precision allowed for this column
+
+Record 1006: Rejected - Error on table STUDENT, column NR_ALBUMU.
+ORA-01438: value larger than specified precision allowed for this column
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table STUDENT:
+  955 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 322500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          1250
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Fri Apr 22 15:36:53 2022
+Run ended on Fri Apr 22 15:36:53 2022
+
+Elapsed time was:     00:00:00.41
+CPU time was:         00:00:00.03

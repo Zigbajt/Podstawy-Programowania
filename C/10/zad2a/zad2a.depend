@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1621946582 source:c:\users\studia\desktop\teraz\laboratorium10\zad2a\main.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdbool.h>
+

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="zad2Frame">
+		<pos>-1,-1</pos>
+		<size>420,530</size>
+		<bg>wxSYS_COLOUR_ACTIVECAPTION</bg>
+		<id_arg>0</id_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<value>0</value>
+			<pos>248,200</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+			<handler function="OnTextCtrl3Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+			<value>0</value>
+			<pos>248,248</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+			<handler function="OnTextCtrl4Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+			<value>0</value>
+			<pos>248,296</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+			<handler function="OnTextCtrl5Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="TextCtrl6" member="yes">
+			<value>0</value>
+			<pos>248,344</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+			<handler function="OnTextCtrl6Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>DODAWANIE :</label>
+			<pos>56,200</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>ODEJMOWANIE :</label>
+			<pos>16,248</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>MNOZENIE :</label>
+			<pos>72,296</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>DZIELENIE :</label>
+			<pos>72,344</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>X</label>
+			<pos>110,50</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>Y</label>
+			<pos>280,50</pos>
+			<font>
+				<size>14</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Oblicz</label>
+			<pos>110,395</pos>
+			<size>200,50</size>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>70,95</pos>
+			<size>100,50</size>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>240,95</pos>
+			<size>100,50</size>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>roman</family>
+				<face>Century</face>
+			</font>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="ID_MENUITEM1" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>

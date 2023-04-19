@@ -1,0 +1,6 @@
+#!/bin/bash
+sqlldr bd2_lab/haslo control=/media/sf_fold/imp_przed.ctl DATE_CACHE=0
+sqlldr bd2_lab/haslo control=/media/sf_fold/imp_student.ctl DATE_CACHE=0
+sqlldr bd2_lab/haslo control=/media/sf_fold/imp_wykladowca.ctl DATE_CACHE=0
+sqlldr bd2_lab/haslo control=/media/sf_fold/imp_zaliczenie.ctl DATE_CACHE=0
+

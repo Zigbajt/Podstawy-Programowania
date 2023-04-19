@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1635461224 source:c:\users\dawid\documents\c++\3\zad1\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1635461224 source:c:\users\dawid\desktop\jc2.gr214a.maciejski.lab3\zad1\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

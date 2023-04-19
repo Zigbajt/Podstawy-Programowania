@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\studia\documents\c++\lab2\zad7\main.cpp
+	<iostream>
+
+1616060526 source:c:\users\studia\documents\c++\lab2\zad7\silnia.cpp
+	"plik.h"
+
+1616061002 c:\users\studia\documents\c++\lab2\zad7\plik1.h
+

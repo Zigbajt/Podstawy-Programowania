@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA926AFA-BBD5-9F34-7534-72EFF2C4DF69" name="Akcja">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>5B8CF1DF-DAF4-537C-E86F-9B35E3CBFEAB</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_akcja" id="1A9C647D-1D48-862C-D6AC-D99426AB7EFC">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>4D67D233-3D57-886D-0815-09DDF78EA4C8</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zgloszenie_id_zgloszenie" id="40296328-B30D-C722-CC6A-93BD38046AB2">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>C976E08A-0B98-1019-6617-FB2C4078F3D1</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5499263-83D6-252D-4D32-0CC76341D9B7" referredColumn="C7100C89-EA84-1ED8-E69B-F00804314CAC"/>
+</associations>
+</Column>
+<Column name="Dyspozytor_id_dyspozytora" id="A12AF988-3676-96AB-143C-650F4DFCA71F">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>831D6F07-7EA4-213D-E2FB-107C472C4F0C</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E937F045-D624-EC15-65E9-3694A2FE4696" referredColumn="8C13C758-FFC0-3E35-6D06-D4E83D6B2144"/>
+</associations>
+</Column>
+<Column name="Jednostka_id_jednostki" id="4546A3ED-BFA9-DD4E-0CEE-2A7B04A39EF6">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>BF62EE1B-60DD-BE13-9661-5AE3EDEF15FA</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="093F886C-C3C5-5B4C-0E4B-547FD6EBBE5E" referredColumn="4372EB34-4A69-D23A-20A0-580BB7D2B854"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1D1F03C-600D-1246-B5D8-4A7BF3EC4EB9" name="Akcja_PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:36:47 UTC</createdTime>
+<generatorID>B2A581CE-5C1F-544C-E128-1CB4C7B6738F</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A9C647D-1D48-862C-D6AC-D99426AB7EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F59B0F57-595C-301B-C93A-54284E56D8D2" name="Akcja_Zgloszenie_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>1B74E9E3-C3F1-5719-6003-5763889CBB60</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40296328-B30D-C722-CC6A-93BD38046AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D529520-6779-3540-277A-632CD80E1787" name="Akcja_Dyspozytor_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>60C4B873-C152-D97F-342D-E76160C9B3CF</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A12AF988-3676-96AB-143C-650F4DFCA71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A38CD825-F039-1975-A830-B1C97EE5501D" name="Akcja_Jednostka_FK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:41:38 UTC</createdTime>
+<generatorID>3AFD322D-9A20-85B0-3C27-C2D3E24325A0</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4546A3ED-BFA9-DD4E-0CEE-2A7B04A39EF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

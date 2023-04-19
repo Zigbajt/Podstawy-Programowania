@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="zad3Frame">
+		<title>Zadanie3</title>
+		<size>600,800</size>
+		<bg>wxSYS_COLOUR_3DLIGHT</bg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Imie</label>
+			<pos>50,100</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Nzwisko</label>
+			<pos>300,100</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Wiek</label>
+			<pos>50,150</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Wprowadz Studenta</label>
+			<pos>152,16</pos>
+			<font>
+				<size>18</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<maxlength>100</maxlength>
+			<pos>110,100</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<maxlength>100</maxlength>
+			<pos>400,100</pos>
+			<size>150,30</size>
+		</object>
+		<object class="wxSpinCtrl" name="ID_SPINCTRL1" variable="SpinCtrl1" member="yes">
+			<value>0</value>
+			<pos>110,150</pos>
+			<size>132,30</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>Rok Studiow</label>
+			<pos>288,152</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxSpinButton" name="ID_SPINBUTTON1" variable="SpinButton1" member="yes">
+			<min>1</min>
+			<max>100000</max>
+			<pos>368,248</pos>
+			<size>32,42</size>
+			<handler function="OnSpinButton1Change" entry="EVT_SPIN" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+			<maxlength>5</maxlength>
+			<pos>264,256</pos>
+			<size>90,30</size>
+			<handler function="OnTextCtrl3Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>Gr. Dziekanska</label>
+			<pos>96,208</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+			<label>Nr. Indeksu</label>
+			<pos>128,256</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+		</object>
+		<object class="wxChoice" name="ID_CHOICE1" variable="Choice1" member="yes">
+			<content>
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+				<item>4</item>
+				<item>5</item>
+			</content>
+			<pos>432,152</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+			<pos>264,208</pos>
+			<handler function="OnTextCtrl4Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Wykonaj</label>
+			<pos>240,312</pos>
+			<size>136,56</size>
+			<font>
+				<size>12</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl5" member="yes">
+			<maxlength>1000</maxlength>
+			<pos>24,384</pos>
+			<size>536,200</size>
+			<enabled>0</enabled>
+			<focused>1</focused>
+			<hidden>1</hidden>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Tahoma</face>
+			</font>
+			<style>wxTE_PROCESS_ENTER|wxTE_PROCESS_TAB</style>
+			<handler function="OnTextCtrl5Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>

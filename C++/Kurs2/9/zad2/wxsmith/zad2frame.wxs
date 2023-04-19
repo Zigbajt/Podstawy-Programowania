@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="zad2Frame">
+		<size>400,800</size>
+		<bg>wxSYS_COLOUR_WINDOWFRAME</bg>
+		<id_arg>0</id_arg>
+		<object class="wxComboBox" name="ID_COMBOBOX1" variable="ComboBox1" member="yes">
+			<content>
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+				<item>4</item>
+				<item>5</item>
+			</content>
+			<selection>0</selection>
+			<pos>30,30</pos>
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX1" variable="ListBox1" member="yes">
+			<content>
+				<item>Wybierz 1</item>
+				<item>Wybierz 2</item>
+				<item>Wybierz 3</item>
+				<item>Wybierz 4</item>
+				<item>Wybierz 5</item>
+			</content>
+			<pos>30,80</pos>
+		</object>
+		<object class="wxCheckListBox" name="ID_CHECKLISTBOX1" variable="CheckListBox1" member="yes">
+			<content>
+				<item>1U</item>
+				<item>2Y</item>
+				<item>3B</item>
+				<item>4O</item>
+				<item>5P</item>
+			</content>
+			<pos>30,160</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON1" variable="RadioButton1" member="yes">
+			<label>Wybierz X</label>
+			<selected>1</selected>
+			<pos>80,260</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON2" variable="RadioButton2" member="yes">
+			<label>Wybierz Y</label>
+			<pos>240,260</pos>
+		</object>
+		<object class="wxRadioBox" name="ID_RADIOBOX1" variable="RadioBox1" member="yes">
+			<label>Wybierz</label>
+			<content>
+				<item>1A</item>
+				<item>2B</item>
+				<item>3C</item>
+				<item>4D</item>
+				<item>5E</item>
+			</content>
+			<pos>250,30</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Wykonaj</label>
+			<pos>150,320</pos>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>40,368</pos>
+			<size>320,200</size>
+			<enabled>0</enabled>
+			<hidden>1</hidden>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>

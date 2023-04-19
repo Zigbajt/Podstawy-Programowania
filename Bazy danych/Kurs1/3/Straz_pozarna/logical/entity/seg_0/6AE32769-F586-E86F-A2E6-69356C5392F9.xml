@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AE32769-F586-E86F-A2E6-69356C5392F9" name="Pojazdy">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 14:57:53 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pojazdu" id="0655BDD1-C595-EA4A-8F5D-1256214A466A">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:31:16 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr rejestracyjny" id="873548E5-C8C1-954C-6196-E5105DAF05F9">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:31:37 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C54EADAD-08D3-FC86-8386-A4D0BF8A39E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liczba osob" id="FC80B5EE-8779-6F5C-AE75-C67118EB8059">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:31:56 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>69A61D15-0E9C-8C44-E04E-76D22F5A1165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rodzaj" id="E35EA3F5-B4BC-9051-BAEA-EB6E20CE3CC5">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:32:16 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C17A4ED5-E44D-9676-27F1-E08F778727C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id badanie techniczne" id="29B9AC21-D0B7-FE05-C5C7-877A17D261F7">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:39:32 UTC</createdTime>
+<generatorID>7AFB5A9C-E031-97CD-4110-4A09C2472089</generatorID>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<referedAttribute>DF2EAFDD-6743-7AC4-BEE0-D5E6B6A4D8A0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BB1218EA-BB6E-5EE4-542D-CB3C666056A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D724704F-5E2D-28CC-10AA-C32D47C14E16" name="Pojazdy PK">
+<createdBy>Dawid</createdBy>
+<createdTime>2021-10-24 15:31:28 UTC</createdTime>
+<ownerDesignName>Straz_pozarna</ownerDesignName>
+<engineerTo>
+<item key="2235383C-6800-6AF6-1EE5-C81C2AC4B275" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0655BDD1-C595-EA4A-8F5D-1256214A466A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
